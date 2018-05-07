@@ -1,0 +1,47 @@
+{
+  "name": "just-sql-query-builder",
+  "version": "1.0.0",
+  "author": "Uldis Jansons <uj@mobilly.lv>",
+  "license": "APLv2",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saleniex/simple-sql-query-builder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saleniex/simple-sql-query-builder/issues"
+  },
+  "homepage": "https://github.com/saleniex/simple-sql-query-builder#readme",
+  "scripts": {
+    "build": "tsc -p tsconfig.release.json",
+    "test": "jest"
+  },
+  "description": "Simple SQL query builder",
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 8.9.0"
+  },
+  "devDependencies": {
+    "@types/jest": "~22.0.1",
+    "@types/node": "~8.5.8",
+    "jest": "~22.1.1",
+    "ts-loader": "^3.5.0",
+    "tsutils": "~2.18.0",
+    "typescript": "~2.6.2"
+  },
+
+  "keywords": [
+    "sql",
+    "generation",
+    "generate",
+    "query",
+    "pg",
+    "postgres",
+    "sqlite",
+    "builder",
+    "select",
+    "insert",
+    "update",
+    "delete"
+  ]
+}
