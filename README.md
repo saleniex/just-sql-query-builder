@@ -88,10 +88,9 @@ DELETE FROM test_table WHERE field1 = ?
 ```typescript
 const jsqb = require('just-sql-query-builder');
 
-const qb = new InsertQueryBuilder('test_table', ['field1', 'field2']);
+const qb = new jsqb.InsertQueryBuilder('test_table', ['field1', 'field2']);
 
 console.log('Query: ' + qb.buildAndGetQuery());
-console.log('Params: ' + qb.getConditionParams());
 
 ```
 
