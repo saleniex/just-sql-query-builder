@@ -1,6 +1,6 @@
 {
   "name": "just-sql-query-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Uldis Jansons <uj@mobilly.lv>",
   "license": "APLv2",
   "main": "dist/index.js",
@@ -29,7 +29,6 @@
     "tsutils": "~2.18.0",
     "typescript": "~2.6.2"
   },
-
   "keywords": [
     "sql",
     "generation",
