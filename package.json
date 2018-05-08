@@ -6,12 +6,12 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/saleniex/simple-sql-query-builder.git"
+    "url": "https://github.com/saleniex/just-sql-query-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/saleniex/simple-sql-query-builder/issues"
+    "url": "https://github.com/saleniex/just-sql-query-builder/issues"
   },
-  "homepage": "https://github.com/saleniex/simple-sql-query-builder#readme",
+  "homepage": "https://github.com/saleniex/just-sql-query-builder#readme",
   "scripts": {
     "build": "tsc -p tsconfig.release.json",
     "test": "jest"
