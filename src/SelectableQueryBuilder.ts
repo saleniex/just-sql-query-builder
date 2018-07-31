@@ -4,8 +4,8 @@ import Condition from './Condition';
 export default abstract class SelectableQueryBuilder extends QueryBuilder {
     protected target: string;
     protected conditions: Condition[] = [];
-    private limit: number = 0;
-    private offset: number = 0;
+    public limit: number = 0;
+    public offset: number = 0;
 
     constructor(target: string = null) {
         super();
